@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Lato", sans-serif;
+}
+
+body{
+    background-color: #131212;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem ;
+}
+
+.box{
+    background-color:#343a40;
+    width: 30rem;
+    height: 7rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: 4rem;
+}
+.DOB{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    border: none;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.calculate{
+    height: 3rem;
+    width: auto;
+    padding: 0rem 1rem;
+    border-radius: 0.5rem;
+    color: #ffffff;
+    background-color:#52b788;
+    border: none;
+    font-weight: 700;
+}
+
+.resultbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+
+.resultdigitbox{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    width: 30rem;
+
+}
+.result{
+    width: 10rem;
+    height: 10rem;
+    /* background-color: antiquewhite; */
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display{
+    color:white;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.statementbox{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.state{
+    display: none;
+}
+
+.showstate{
+    color: #52b788;
+    display: inline-block;
+
+}
